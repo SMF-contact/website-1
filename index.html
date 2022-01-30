@@ -1,392 +1,1035 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Smart Finance</title>
-    <meta name="description" content="The first ever platform powerd by AI">
-    <meta name="author" content="Dink">
-    <meta name="theme-color" content="#ffb909">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/app.css">
+    <meta name="description" content="The first ever platform powerd by AI" />
+    <meta name="author" content="Dink" />
+    <meta name="theme-color" content="#ffb909" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body class="">
     <main class="main">
-      <header class="navbar navbar-sticky sticky-bg-color--dark navbar-expand-lg navbar-dark">
-        <div class="container-fluid position-relative"> <a class="navbar-brand smooth-scroll"
-            href="#start"> <img class="navbar-brand__regular" src="images/brand-logo-gradient.png"
-              alt="brand-logo"> <img class="navbar-brand__sticky" src="images/brand-logo-gradient.png"
-              alt="sticky brand-logo"> </a>
-          <!--  End of brand logo --> <button class="navbar-toggler d-lg-none"
-            type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> </button>
+      <header
+        class="
+          navbar navbar-sticky
+          sticky-bg-color--dark
+          navbar-expand-lg navbar-dark
+        "
+      >
+        <div class="container-fluid position-relative">
+          <a class="navbar-brand smooth-scroll" href="#start">
+            <img
+              class="navbar-brand__regular"
+              src="images/brand-logo-gradient.png"
+              alt="brand-logo"
+            />
+            <img
+              class="navbar-brand__sticky"
+              src="images/brand-logo-gradient.png"
+              alt="sticky brand-logo"
+            />
+          </a>
+          <!--  End of brand logo -->
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-toggle="navbarToggler"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <!-- end of Nav toggler -->
           <div class="navbar-inner">
-            <!--  Nav close button inside off-canvas/ mobile menu --> <button class="navbar-toggler d-lg-none"
-              type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span> </button>
+            <!--  Nav close button inside off-canvas/ mobile menu -->
+            <button
+              class="navbar-toggler d-lg-none"
+              type="button"
+              data-toggle="navbarToggler"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- end of Nav Toggoler -->
             <nav>
               <ul class="navbar-nav" id="navbar-nav">
-                <li class="nav-item"> <a class="nav-link" href="#partners">Partners</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#partners">Partners</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tokenomics">Tokenomics</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#features">Features</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Features</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#presale">Presale
-                    Details</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#roadmap">Roadmap</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#presale">Presale Details</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#team">Team</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#roadmap">Roadmap</a>
                 </li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-                    href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">More</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="javascript:void(0)"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >More</a
+                  >
                   <ul class="dropdown-menu">
-                    <li> <a class="dropdown-item smooth-scroll" href="#vision">Vision</a>
+                    <li>
+                      <a class="dropdown-item smooth-scroll" href="#vision"
+                        >Vision</a
+                      >
                     </li>
-                    <li> <a class="dropdown-item" href="javascript:void(0)">Audit</a>
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0)"
+                        >Audit</a
+                      >
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item mt-sm-2 mt-md-2 mt-lg-0">
-                  <!-- <a class="nav-link" href="#faq">Whitepaper</a> --> <a href="javascript:void(0)"
-                    class="btn btn-size--sm btn-bg--primary btn-hover--3d btn-hover--splash px-2 ml-2">
+                  <!-- <a class="nav-link" href="#faq">Whitepaper</a> -->
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      btn
+                      btn-size--sm
+                      btn-bg--primary
+                      btn-hover--3d btn-hover--splash
+                      px-2
+                      ml-2
+                    "
+                  >
                     <span class="btn__text d-flex align-items-center">
-                      Whitepaper </span> </a> </li>
+                      Whitepaper
+                    </span>
+                  </a>
+                </li>
               </ul>
-              <!-- end of nav menu items --> </nav>
+              <!-- end of nav menu items -->
+            </nav>
           </div>
-          <!-- end of nav cta button --> </div>
+          <!-- end of nav cta button -->
+        </div>
         <!-- end of container -->
       </header>
       <div class="container">
         <div class="sticky_note">
-          <div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
-            <a href="#presale" class="smooth-scroll"> <strong>Hurry, presale
-                starts in:</strong> 2 Day.&nbsp;</a><button type="button" class="close"
-              data-dismiss="alert" aria-label="Close" style="top: -2px; left: 437px;"></button></div>
+          <div
+            class="alert alert-success alert-dismissible fade show mb-0"
+            role="alert"
+          >
+            <a href="#presale" class="smooth-scroll">
+              <strong>Hurry, presale starts in:</strong> 2 Day.&nbsp;</a
+            ><button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+              style="top: -2px; left: 437px"
+            ></button>
+          </div>
         </div>
       </div>
-      <section class="hero hero--v3 section--dark bg-color--dark--1 d-flex align-items-center hidden"
-        id="start">
-        <div class="background-holder background--cover opacity-5 background--move z-index0"><img
-            src="images/layout/shape-b.png" alt="background image" class="background-image-holder">
+      <section
+        class="
+          hero hero--v3
+          section--dark
+          bg-color--dark--1
+          d-flex
+          align-items-center
+          hidden
+        "
+        id="start"
+      >
+        <div
+          class="
+            background-holder background--cover
+            opacity-5
+            background--move
+            z-index0
+          "
+        >
+          <img
+            src="images/layout/shape-b.png"
+            alt="background image"
+            class="background-image-holder"
+          />
         </div>
         <div class="container">
-          <div class="row align-items-center flex-column-reverse flex-lg-row text-center text-lg-left mb-10 z-index2">
+          <div
+            class="
+              row
+              align-items-center
+              flex-column-reverse flex-lg-row
+              text-center text-lg-left
+              mb-10
+              z-index2
+            "
+          >
             <!-- end of image -->
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
               <div class="text-center text-lg-left reveal">
-                <h1 class="h2-font font-w--600 mb-2 color--brand-blue">Smart<span
-                    class="color--brand-green-light">Finance</span> </h1>
+                <h1 class="h2-font font-w--600 mb-2 color--brand-blue">
+                  Smart<span class="color--brand-green-light">Finance</span>
+                </h1>
                 <h2 class="h4 mb-2">The first ever platform powerd by AI</h2>
-                <p class="text-color--300 mb-3 color--brand-blue">A new
-                  AI-powered platform that offers DeFi services as well as P2P
-                  trading and investing tools. All of this is made possible by
-                  our one-of-a-kind Artificial Intelligence, Machine Learning,
-                  and Mathematical Expectations approach.</p>
-                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
-                  <a class="lightbox d-flex align-items-center vbox-item" data-autoplay="true"
-                    data-vbtype="video" href="https://vimeo.com/222558083"> <span
-                      class="btn btn-media btn-media-size--sm btn-bg--cta--6 rounded--full mr-1">
-                      <i class="ri-play-fill ri-xl"></i> </span> <span class="font-w--600 color--white ml-1">Watch
-                      Demo Video</span> </a> </div>
+                <p class="text-color--300 mb-3 color--brand-blue">
+                  A new AI-powered platform that offers DeFi services as well as
+                  P2P trading and investing tools. All of this is made possible
+                  by our one-of-a-kind Artificial Intelligence, Machine
+                  Learning, and Mathematical Expectations approach.
+                </p>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center justify-content-lg-start
+                  "
+                >
+                  <a
+                    class="lightbox d-flex align-items-center vbox-item"
+                    data-autoplay="true"
+                    data-vbtype="video"
+                    href="https://vimeo.com/222558083"
+                  >
+                    <span
+                      class="
+                        btn btn-media
+                        btn-media-size--sm
+                        btn-bg--cta--6
+                        rounded--full
+                        mr-1
+                      "
+                    >
+                      <i class="ri-play-fill ri-xl"></i>
+                    </span>
+                    <span class="font-w--600 color--white ml-1"
+                      >Watch Demo Video</span
+                    >
+                  </a>
+                </div>
               </div>
             </div>
             <!-- end of content -->
-            <div class="col-12 col-lg-7 col-xl-7 mt-md-4 mb-6 mb-lg-0"> <picture
-                class="hero__image mainimage reveal"> <img src="images/gfx-main-1.svg"
-                  alt="Hero Graphic" class="img-fluid"> </picture> </div>
-            <!-- end of image --> </div>
+            <div class="col-12 col-lg-7 col-xl-7 mt-md-4 mb-6 mb-lg-0">
+              <picture class="hero__image mainimage reveal">
+                <img
+                  src="images/gfx-main-1.svg"
+                  alt="Hero Graphic"
+                  class="img-fluid"
+                />
+              </picture>
+            </div>
+            <!-- end of image -->
+          </div>
           <!-- end of row -->
           <div class="col-12 col-sm-12 col-md-12 col-xl-8 mx-auto">
-            <div class="newsletter-form form--v1 d-lg-flex align-items-lg-center justify-content-lg-between">
+            <div
+              class="
+                newsletter-form
+                form--v1
+                d-lg-flex
+                align-items-lg-center
+                justify-content-lg-between
+              "
+            >
               <form action="#" class="form">
                 <h6 class="text-center mb-2">Contract Address</h6>
-                <div class="input-group input-group--rounded d-flex"> <input id="address"
-                    class="form-control form-mono" value="0xAE973B22d9764476041043C7d6eFdF20a5E6093F"
-                    readonly="readonly" type="text"> <button class="btn btn-warning rounded--full btn-hover--splash font-w--700 copyBtn"
-                    type="button" data-clipboard-target="#address"> <span class="btn__text">Copy
-                      Address</span> </button> </div>
-                <div class="mt-2 position-absolute copied font-w--600"> <span class="color--brand-green">Address
-                    Copied!</span> </div>
+                <div class="input-group input-group--rounded d-flex">
+                  <input
+                    id="address"
+                    class="form-control form-mono"
+                    value="0xAE973B22d9764476041043C7d6eFdF20a5E6093F"
+                    readonly="readonly"
+                    type="text"
+                  />
+                  <button
+                    class="
+                      btn btn-warning
+                      rounded--full
+                      btn-hover--splash
+                      font-w--700
+                      copyBtn
+                    "
+                    type="button"
+                    data-clipboard-target="#address"
+                  >
+                    <span class="btn__text">Copy Address</span>
+                  </button>
+                </div>
+                <div class="mt-2 position-absolute copied font-w--600">
+                  <span class="color--brand-green">Address Copied!</span>
+                </div>
               </form>
             </div>
-            <!-- end of form --> </div>
+            <!-- end of form -->
+          </div>
         </div>
         <div class="text-center icon-group--sticky">
           <ul class="icon-group icon-group--vertical">
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
-            <li> <a href="javascript:void(0)"> </a> <br>
-            </li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
+            <li><a href="javascript:void(0)"> </a> <br /></li>
           </ul>
         </div>
       </section>
       <!-- =========== End of Hero ============ -->
       <!-- =========== Start of Partners ============ -->
-      <section class="space--top space--bottom pb-4 section--dark bg-color--dark--2 border--bottom"
-        id="partners">
-        <div class="background-holder background--center opacity--10"> <img src="images/layout/map-2.png"
-            alt="image" class="background-image-holder"> </div>
+      <section
+        class="
+          space--top space--bottom
+          pb-4
+          section--dark
+          bg-color--dark--2
+          border--bottom
+        "
+        id="partners"
+      >
+        <div class="background-holder background--center opacity--10">
+          <img
+            src="images/layout/map-2.png"
+            alt="image"
+            class="background-image-holder"
+          />
+        </div>
         <!-- end of section overlay -->
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-10 col-md-8 mx-auto">
               <div class="text-center mb-5 mb-lg-6 reveal">
-                <h2 class="text-uppercase mb-4 color--brand-blue">Our partners</h2>
+                <h2 class="text-uppercase mb-4 color--brand-blue">
+                  Our partners
+                </h2>
               </div>
               <div class="text-center mt-5 mb-lg-6 reveal">
-                <h4 class="text-uppercase font-w--600 mb-4 color--brand-green-light">As
-                  Seen on</h4>
+                <h4
+                  class="
+                    text-uppercase
+                    font-w--600
+                    mb-4
+                    color--brand-green-light
+                  "
+                >
+                  As Seen on
+                </h4>
               </div>
             </div>
-            <div class="carosuel-slider--v1 z-index1 bg-gradient--darkblue--9 reveal">
-              <div class="slide"> <img src="images/brands/yahoo.svg" alt="Yahoo News"
-                  class="partener-slide"> </div>
-              <div class="slide"> <img src="images/brands/cointel.svg" alt="Cointelegraph"
-                  class="partener-slide"> </div>
-              <div class="slide"> <a href="https://www.benzinga.com/pressreleases/22/01/25108833/smart-finance-announces-launch-of-ico-for-new-cryptocurrency-platform-based-on-ai-and-machine-learn"
-                  target="_blank"> <img src="images/brands/benzinga.svg" alt="Benzinga"
-                    class="partener-slide"> </a> </div>
-              <div class="slide"> <a href="https://www.comserveonline.com/news-releases/smart-finance-announces-launch-of-ico-for-new-cryptocurrency-platform-based-on-ai-and-machine-learning/10120294"
-                  target="_blank" role="alert"> <img src="images/brands/comserve.svg"
-                    alt="Comserve" class="partener-slide"> </a> </div>
-              <div class="slide"> <img src="images/brands/marketwatch.svg" alt="Merketwatch"
-                  class="partener-slide"> </div>
+            <div
+              class="
+                carosuel-slider--v1
+                z-index1
+                bg-gradient--darkblue--9
+                reveal
+              "
+            >
+              <div class="slide">
+                <img
+                  src="images/brands/yahoo.svg"
+                  alt="Yahoo News"
+                  class="partener-slide"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="images/brands/cointel.svg"
+                  alt="Cointelegraph"
+                  class="partener-slide"
+                />
+              </div>
+              <div class="slide">
+                <a
+                  href="https://www.benzinga.com/pressreleases/22/01/25108833/smart-finance-announces-launch-of-ico-for-new-cryptocurrency-platform-based-on-ai-and-machine-learn"
+                  target="_blank"
+                >
+                  <img
+                    src="images/brands/benzinga.svg"
+                    alt="Benzinga"
+                    class="partener-slide"
+                  />
+                </a>
+              </div>
+              <div class="slide">
+                <a
+                  href="https://www.comserveonline.com/news-releases/smart-finance-announces-launch-of-ico-for-new-cryptocurrency-platform-based-on-ai-and-machine-learning/10120294"
+                  target="_blank"
+                  role="alert"
+                >
+                  <img
+                    src="images/brands/comserve.svg"
+                    alt="Comserve"
+                    class="partener-slide"
+                  />
+                </a>
+              </div>
+              <div class="slide">
+                <img
+                  src="images/brands/marketwatch.svg"
+                  alt="Merketwatch"
+                  class="partener-slide"
+                />
+              </div>
             </div>
           </div>
           <!-- end of section title row -->
           <div class="position-relative reveal">
             <div class="text-center mt-5 mb-lg-6 reveal">
-              <h4 class="h6-font text-uppercase font-w--600 mb-4 color--brand-green-light">Partners</h4>
+              <h4
+                class="
+                  h6-font
+                  text-uppercase
+                  font-w--600
+                  mb-4
+                  color--brand-green-light
+                "
+              >
+                Partners
+              </h4>
             </div>
-            <div class="vertical-border d-flex pos-abs-center h-100 w-100"> <span
-                class="column-border"></span> <span class="column-border"></span>
-              <span class="column-border"></span> </div>
-            <div class="row horizontal-border text-center mb-lg-2 pb-lg-2 d-flex align-items-center reveal">
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/openai.svg" alt="partner-logo" class="img-fluid"></span>
+            <div class="vertical-border d-flex pos-abs-center h-100 w-100">
+              <span class="column-border"></span>
+              <span class="column-border"></span>
+              <span class="column-border"></span>
+            </div>
+            <div
+              class="
+                row
+                horizontal-border
+                text-center
+                mb-lg-2
+                pb-lg-2
+                d-flex
+                align-items-center
+                reveal
+              "
+            >
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/openai.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/bsc.svg" alt="partner-logo" class="img-fluid"></span>
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/bsc.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/tenserflow.svg" alt="partner-logo" class="img-fluid"></span>
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/tenserflow.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/trustwallet.svg" alt="partner-logo" class="img-fluid"></span>
-              </div>
-              <!-- end of single item --> </div>
-            <div class="row horizontal-border text-center mb-lg-2 pb-lg-2 d-flex align-items-center reveal">
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/tenserflow.svg" alt="partner-logo" class="img-fluid"></span>
-              </div>
-              <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/trustwallet.svg" alt="partner-logo" class="img-fluid"></span>
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/trustwallet.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/bsc.svg" alt="partner-logo" class="img-fluid"></span>
+            </div>
+            <div
+              class="
+                row
+                horizontal-border
+                text-center
+                mb-lg-2
+                pb-lg-2
+                d-flex
+                align-items-center
+                reveal
+              "
+            >
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/tenserflow.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/openai.svg" alt="partner-logo" class="img-fluid"></span>
-              </div>
-              <!-- end of single item --> </div>
-            <div class="row horizontal-border text-center mb-lg-2 pb-lg-2 d-flex align-items-center reveal">
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/openai.svg" alt="partner-logo" class="img-fluid"></span>
-              </div>
-              <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/bsc.svg" alt="partner-logo" class="img-fluid"></span>
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/trustwallet.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/tenserflow.svg" alt="partner-logo" class="img-fluid"></span>
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/bsc.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
               <!-- end of single item -->
-              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo"> <span><img
-                    src="images/brands/pytorch.svg" alt="partner-logo" class="img-fluid"></span>
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/openai.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
               </div>
-              <!-- end of single item --> </div>
-            <!-- end of logo area --> </div>
+              <!-- end of single item -->
+            </div>
+            <div
+              class="
+                row
+                horizontal-border
+                text-center
+                mb-lg-2
+                pb-lg-2
+                d-flex
+                align-items-center
+                reveal
+              "
+            >
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/openai.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
+              </div>
+              <!-- end of single item -->
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/bsc.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
+              </div>
+              <!-- end of single item -->
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/tenserflow.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
+              </div>
+              <!-- end of single item -->
+              <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 partner-logo">
+                <span
+                  ><img
+                    src="images/brands/pytorch.svg"
+                    alt="partner-logo"
+                    class="img-fluid"
+                /></span>
+              </div>
+              <!-- end of single item -->
+            </div>
+            <!-- end of logo area -->
+          </div>
         </div>
       </section>
       <!-- =========== End of Partners ============ -->
       <!-- =========== Start of Token sale information ============ -->
-      <section class="space token-saleinfo token-saleinfo--v1 section--dark bg-color--dark--2 border--bottom"
-        id="tokenomics">
-        <div class="background-holder background--cover background--top opacity-5">
-          <img src="images/layout/shape-n.png" alt="image" class="background-image-holder">
+      <section
+        class="
+          space
+          token-saleinfo token-saleinfo--v1
+          section--dark
+          bg-color--dark--2
+          border--bottom
+        "
+        id="tokenomics"
+      >
+        <div
+          class="background-holder background--cover background--top opacity-5"
+        >
+          <img
+            src="images/layout/shape-n.png"
+            alt="image"
+            class="background-image-holder"
+          />
         </div>
         <!-- end of section overlay -->
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-10 col-md-8 mx-auto reveal">
               <div class="text-center mb-5 mb-lg-7">
-                <h2 class="text-uppercase mb-4 color--brand-blue">Tokenomics</h2>
-                <p class="h6-font color--brand-green-light">5% of the total
-                  supply will be airdropped to presale contributors. The only
-                  eligibility condition is to still hold at least 65% of the
-                  initial contribution.</p>
+                <h2 class="text-uppercase mb-4 color--brand-blue">
+                  Tokenomics
+                </h2>
+                <p class="h6-font color--brand-green-light">
+                  5% of the total supply will be airdropped to presale
+                  contributors. The only eligibility condition is to still hold
+                  at least 65% of the initial contribution.
+                </p>
               </div>
             </div>
           </div>
           <!-- end of section title row -->
           <div class="row">
             <div class="col-12 col-lg-8 pr-lg-6 mb-4 mb-lg-0">
-              <div class="token-saleinfo-dist d-md-flex align-items-md-center reveal">
-                <div id="pie-chart--v1" class="pie-chart--flat position-relative mx-auto mr-md-3 mb-3 mb-md-0">
-                  <div class="text-center color--primary d-flex flex-column pos-abs-center">
-                    <span class=" font-size--14 text-white font-w--600 mb-1">Total
-                      Supply</span> <span class="font-w--600 mb-1 color--brand-green-light">77,000,000</span>
-                    <span class="font-w--600 color--brand-green-light">SMF</span>
+              <div
+                class="
+                  token-saleinfo-dist
+                  d-md-flex
+                  align-items-md-center
+                  reveal
+                "
+              >
+                <div
+                  id="pie-chart--v1"
+                  class="
+                    pie-chart--flat
+                    position-relative
+                    mx-auto
+                    mr-md-3
+                    mb-3 mb-md-0
+                  "
+                >
+                  <div
+                    class="
+                      text-center
+                      color--primary
+                      d-flex
+                      flex-column
+                      pos-abs-center
+                    "
+                  >
+                    <span class="font-size--14 text-white font-w--600 mb-1"
+                      >Total Supply</span
+                    >
+                    <span class="font-w--600 mb-1 color--brand-green-light"
+                      >77,000,000</span
+                    >
+                    <span class="font-w--600 color--brand-green-light"
+                      >SMF</span
+                    >
                   </div>
                 </div>
                 <!-- end of pie chart -->
                 <div class="content dist-content">
                   <h3 class="h4-font font-w--600 mb-3">Token Distribution</h3>
                   <ul class="content-list list-unstyled remove-space--bottom">
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#3260ED"></span> <span class="content-list__name">Token
-                          Presale</span> </div>
-                      <span class="content-list__value">31.48%</span> </li>
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#8CA8FF"></span> <span class="content-list__name">Staking
-                          &amp; Farming</span> </div>
-                      <span class="content-list__value">20%</span> </li>
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#7af0d1"></span> <span class="content-list__name">Listing</span>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#3260ED"
+                        ></span>
+                        <span class="content-list__name">Token Presale</span>
                       </div>
-                      <span class="content-list__value">18.41%</span> </li>
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#3290ed"></span> <span class="content-list__name">Liquidity</span>
+                      <span class="content-list__value">31.48%</span>
+                    </li>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#8CA8FF"
+                        ></span>
+                        <span class="content-list__name"
+                          >Staking &amp; Farming</span
+                        >
                       </div>
-                      <span class="content-list__value">17.11%</span> </li>
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#7c7af0"></span> <span class="content-list__name">Dev
-                          Wallet</span> </div>
-                      <span class="content-list__value">5%</span> </li>
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#32e4ed"></span> <span class="content-list__name">Gaming
-                          Tournament</span> </div>
-                      <span class="content-list__value">5%</span> </li>
-                    <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                      <div class="d-flex align-items-center"> <span class="oval--md mr-1 jsElement"
-                          data-bg-color="#32bbed"></span> <span class="content-list__name">Airdrop</span>
+                      <span class="content-list__value">20%</span>
+                    </li>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#7af0d1"
+                        ></span>
+                        <span class="content-list__name">Listing</span>
                       </div>
-                      <span class="content-list__value">3%</span> </li>
+                      <span class="content-list__value">18.41%</span>
+                    </li>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#3290ed"
+                        ></span>
+                        <span class="content-list__name">Liquidity</span>
+                      </div>
+                      <span class="content-list__value">17.11%</span>
+                    </li>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#7c7af0"
+                        ></span>
+                        <span class="content-list__name">Dev Wallet</span>
+                      </div>
+                      <span class="content-list__value">5%</span>
+                    </li>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#32e4ed"
+                        ></span>
+                        <span class="content-list__name"
+                          >Gaming Tournament</span
+                        >
+                      </div>
+                      <span class="content-list__value">5%</span>
+                    </li>
+                    <li
+                      class="
+                        text-color--300
+                        font-w--500
+                        d-flex
+                        align-items-center
+                        justify-content-between
+                        mb-1
+                      "
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="oval--md mr-1 jsElement"
+                          data-bg-color="#32bbed"
+                        ></span>
+                        <span class="content-list__name">Airdrop</span>
+                      </div>
+                      <span class="content-list__value">3%</span>
+                    </li>
                   </ul>
                 </div>
-                <!-- end of dist content --> </div>
+                <!-- end of dist content -->
+              </div>
             </div>
             <!-- end of token dist col -->
             <div class="col-12 col-lg-4 ml-auto">
               <div class="content allocation-content reveal">
-                <h3 class="h4-font font-w--600 mb-3">Token Tax <span class="ml-1 text-muted font-w--500">11%</span>
+                <h3 class="h4-font font-w--600 mb-3">
+                  Token Tax <span class="ml-1 text-muted font-w--500">11%</span>
                 </h3>
-                <div class="allocation-bar-wrapper bar-chart--v1 position-relative d-flex mb-3">
-                  <div class="bar-portion jsElement" data-bg-color="#8ca8ff" data-progress-horizon="70">
-                    <span data-tooltip="">USDT Holders Reward 7%</span> </div>
-                  <div class="bar-portion jsElement" data-bg-color="#3290ed" data-progress-horizon="15">
-                    <span data-tooltip="">Liquidity 2%</span> </div>
-                  <div class="bar-portion jsElement" data-bg-color="#7af0d1" data-progress-horizon="15">
-                    <span data-tooltip="">Marketing 2%</span> </div>
+                <div
+                  class="
+                    allocation-bar-wrapper
+                    bar-chart--v1
+                    position-relative
+                    d-flex
+                    mb-3
+                  "
+                >
+                  <div
+                    class="bar-portion jsElement"
+                    data-bg-color="#8ca8ff"
+                    data-progress-horizon="70"
+                  >
+                    <span data-tooltip="">USDT Holders Reward 7%</span>
+                  </div>
+                  <div
+                    class="bar-portion jsElement"
+                    data-bg-color="#3290ed"
+                    data-progress-horizon="15"
+                  >
+                    <span data-tooltip="">Liquidity 2%</span>
+                  </div>
+                  <div
+                    class="bar-portion jsElement"
+                    data-bg-color="#7af0d1"
+                    data-progress-horizon="15"
+                  >
+                    <span data-tooltip="">Marketing 2%</span>
+                  </div>
                 </div>
                 <!-- end of bar -->
                 <ul class="content-list list-unstyled remove-space--bottom">
-                  <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                    <div class="d-flex align-items-center"> <span class="content-list__name">USDT
-                        Holders Reward </span> </div>
-                    <span class="content-list__value">7%</span> </li>
-                  <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                    <div class="d-flex align-items-center"> <span class="content-list__name">Liquidity</span>
+                  <li
+                    class="
+                      text-color--300
+                      font-w--500
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                      mb-1
+                    "
+                  >
+                    <div class="d-flex align-items-center">
+                      <span class="content-list__name"
+                        >USDT Holders Reward
+                      </span>
                     </div>
-                    <span class="content-list__value">2%</span> </li>
-                  <li class="text-color--300 font-w--500 d-flex align-items-center justify-content-between mb-1">
-                    <div class="d-flex align-items-center"> <span class="content-list__name">Marketing</span>
+                    <span class="content-list__value">7%</span>
+                  </li>
+                  <li
+                    class="
+                      text-color--300
+                      font-w--500
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                      mb-1
+                    "
+                  >
+                    <div class="d-flex align-items-center">
+                      <span class="content-list__name">Liquidity</span>
                     </div>
-                    <span class="content-list__value">2%</span> </li>
+                    <span class="content-list__value">2%</span>
+                  </li>
+                  <li
+                    class="
+                      text-color--300
+                      font-w--500
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                      mb-1
+                    "
+                  >
+                    <div class="d-flex align-items-center">
+                      <span class="content-list__name">Marketing</span>
+                    </div>
+                    <span class="content-list__value">2%</span>
+                  </li>
                 </ul>
               </div>
-              <!-- end of Token Allocation content --> </div>
+              <!-- end of Token Allocation content -->
+            </div>
           </div>
           <!-- end of token dist row -->
           <div class="mt-4 border--bottom"></div>
           <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto reveal">
               <div class="mt-5 mb-3 p-5 pb-0 d-block">
-                <h4 class="text-center text-uppercase font-w--600 mb-4 color--brand-blue">Token
-                  Release</h4>
-                <canvas id="BarChart_1"></canvas> </div>
+                <h4
+                  class="
+                    text-center text-uppercase
+                    font-w--600
+                    mb-4
+                    color--brand-blue
+                  "
+                >
+                  Token Release
+                </h4>
+                <canvas id="BarChart_1"></canvas>
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-12 mx-auto">
               <div class="mb-5 border--top"></div>
-              <h4 class="text-center text-uppercase font-w--600 mb-4 color--brand-green-light">Proof
-                Of Lock</h4>
-              <div class="icon-fill--wide text-center d-lg-flex justify-content-lg-center flex-wrap reveal">
-                <a class="col t-icon btn bg-gradient--1 text-white btn-hover--3d btn-hover--splash"
-                  href="javascript:void(0)"> <span class="h6-font mr-1"> <i class="ri-arrow-right-line"></i>
-                  </span> <span class="h6-font font-w--500">Airdrop</span> </a>
-                <a class="col t-icon btn bg-gradient--1 text-white btn-hover--3d btn-hover--splash"
-                  href="javascript:void(0)"> <span class="h6-font mr-1"> <i class="ri-arrow-right-line"></i>
-                  </span> <span class="h6-font font-w--600">Gaming</span> </a>
-                <a class="col t-icon btn bg-gradient--1 text-white btn-hover--3d btn-hover--splash"
-                  href="javascript:void(0)"> <span class="h6-font mr-1"> <i class="ri-arrow-right-line"></i>
-                  </span> <span class="h6-font font-w--600">Staking</span> </a>
-                <a class="col t-icon btn bg-gradient--1 text-white btn-hover--3d btn-hover--splash"
-                  href="javascript:void(0)"> <span class="h6-font mr-1"> <i class="ri-arrow-right-line"></i>
-                  </span> <span class="h6-font font-w--600">Dev</span> </a> <a
-                  class="col t-icon btn bg-gradient--1 text-white btn-hover--3d btn-hover--splash"
-                  href="javascript:void(0)"> <span class="h6-font mr-1"> <i class="ri-arrow-right-line"></i>
-                  </span> <span class="h6-font font-w--600">Listing</span> </a>
+              <h4
+                class="
+                  text-center text-uppercase
+                  font-w--600
+                  mb-4
+                  color--brand-green-light
+                "
+              >
+                Proof Of Lock
+              </h4>
+              <div
+                class="
+                  icon-fill--wide
+                  text-center
+                  d-lg-flex
+                  justify-content-lg-center
+                  flex-wrap
+                  reveal
+                "
+              >
+                <a
+                  class="
+                    col
+                    t-icon
+                    btn
+                    bg-gradient--1
+                    text-white
+                    btn-hover--3d btn-hover--splash
+                  "
+                  href="javascript:void(0)"
+                >
+                  <span class="h6-font mr-1">
+                    <i class="ri-arrow-right-line"></i>
+                  </span>
+                  <span class="h6-font font-w--500">Airdrop</span>
+                </a>
+                <a
+                  class="
+                    col
+                    t-icon
+                    btn
+                    bg-gradient--1
+                    text-white
+                    btn-hover--3d btn-hover--splash
+                  "
+                  href="javascript:void(0)"
+                >
+                  <span class="h6-font mr-1">
+                    <i class="ri-arrow-right-line"></i>
+                  </span>
+                  <span class="h6-font font-w--600">Gaming</span>
+                </a>
+                <a
+                  class="
+                    col
+                    t-icon
+                    btn
+                    bg-gradient--1
+                    text-white
+                    btn-hover--3d btn-hover--splash
+                  "
+                  href="javascript:void(0)"
+                >
+                  <span class="h6-font mr-1">
+                    <i class="ri-arrow-right-line"></i>
+                  </span>
+                  <span class="h6-font font-w--600">Staking</span>
+                </a>
+                <a
+                  class="
+                    col
+                    t-icon
+                    btn
+                    bg-gradient--1
+                    text-white
+                    btn-hover--3d btn-hover--splash
+                  "
+                  href="javascript:void(0)"
+                >
+                  <span class="h6-font mr-1">
+                    <i class="ri-arrow-right-line"></i>
+                  </span>
+                  <span class="h6-font font-w--600">Dev</span>
+                </a>
+                <a
+                  class="
+                    col
+                    t-icon
+                    btn
+                    bg-gradient--1
+                    text-white
+                    btn-hover--3d btn-hover--splash
+                  "
+                  href="javascript:void(0)"
+                >
+                  <span class="h6-font mr-1">
+                    <i class="ri-arrow-right-line"></i>
+                  </span>
+                  <span class="h6-font font-w--600">Listing</span>
+                </a>
               </div>
-              <!-- end of icon group --> </div>
-            <!-- end of col --> </div>
+              <!-- end of icon group -->
+            </div>
+            <!-- end of col -->
+          </div>
         </div>
       </section>
       <!-- =========== End of Token sale information ============ -->
       <!-- =========== Start of Problem/ Solition ============ -->
-      <section class="space--top pb-6 section--dark bg-color--dark--1" id="vision">
-        <div class="background-holder background--center opacity-01 background--contain background--move">
-          <address> <img src="images/layout/map-2.png" alt="image" class="background-image-holder"
-              style="width: 1750px;"> </address>
+      <section
+        class="space--top pb-6 section--dark bg-color--dark--1"
+        id="vision"
+      >
+        <div
+          class="
+            background-holder background--center
+            opacity-01
+            background--contain background--move
+          "
+        >
+          <address>
+            <img
+              src="images/layout/map-2.png"
+              alt="image"
+              class="background-image-holder"
+              style="width: 1750px"
+            />
+          </address>
         </div>
         <div class="container">
           <div class="row">
             <div class="col-12">
               <div class="text-center text-lg-left mb-5 mb-lg-6 reveal">
-                <h2 class="text-uppercase mb-3 color--brand-blue">Our Vision</h2>
+                <h2 class="text-uppercase mb-3 color--brand-blue">
+                  Our Vision
+                </h2>
               </div>
             </div>
           </div>
@@ -394,359 +1037,690 @@
           <div class="row pb-6">
             <!-- end of problem list -->
             <div class="col-12 col-md-6 pr-sm-6 pr-md-0 steps-wrapper mt-2">
-              <div class="step position-relative d-flex align-items-start pb-6 reveal">
-                <div class="mr-3 mr-md-4"> <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle">
-                    <img src="images/icons/income.svg" alt="Reward icon"> </span>
+              <div
+                class="
+                  step
+                  position-relative
+                  d-flex
+                  align-items-start
+                  pb-6
+                  reveal
+                "
+              >
+                <div class="mr-3 mr-md-4">
+                  <span
+                    class="
+                      icon--lg
+                      step__icon
+                      bg-color--white-opacity--05
+                      box-shadow--1
+                      rounded-circle
+                    "
+                  >
+                    <img src="images/icons/income.svg" alt="Reward icon" />
+                  </span>
                 </div>
                 <!-- end of icon -->
                 <div class="position-relative">
                   <h3 class="h4-font font-w--600 mb-1">Passive Income</h3>
-                  <p class="opacity--80">7% of each transaction as USDT rewards.</p>
+                  <p class="opacity--80">
+                    7% of each transaction as USDT rewards.
+                  </p>
                 </div>
-                <!-- end of content --> </div>
+                <!-- end of content -->
+              </div>
               <!-- end of single step -->
-              <div class="step position-relative d-flex align-items-start pb-6 reveal">
-                <div class="mr-3 mr-md-4"> <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle">
-                    <img src="images/icons/lock.svg" alt="Liquidity icon"> </span>
+              <div
+                class="
+                  step
+                  position-relative
+                  d-flex
+                  align-items-start
+                  pb-6
+                  reveal
+                "
+              >
+                <div class="mr-3 mr-md-4">
+                  <span
+                    class="
+                      icon--lg
+                      step__icon
+                      bg-color--white-opacity--05
+                      box-shadow--1
+                      rounded-circle
+                    "
+                  >
+                    <img src="images/icons/lock.svg" alt="Liquidity icon" />
+                  </span>
                 </div>
                 <!-- end of icon -->
                 <div class="position-relative">
                   <h3 class="h4-font font-w--600 mb-1">Liquidity Lock</h3>
-                  <p class="opacity--80">The liquidity has been locked for a 10
-                    year period.</p>
+                  <p class="opacity--80">
+                    The liquidity has been locked for a 10 year period.
+                  </p>
                 </div>
-                <!-- end of content --> </div>
+                <!-- end of content -->
+              </div>
               <!-- end of single step -->
-              <div class="step position-relative d-flex align-items-start pb-6 reveal">
-                <div class="mr-3 mr-md-4"> <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle">
-                    <img src="images/icons/vesting.svg" alt="Vesting icon"> </span>
+              <div
+                class="
+                  step
+                  position-relative
+                  d-flex
+                  align-items-start
+                  pb-6
+                  reveal
+                "
+              >
+                <div class="mr-3 mr-md-4">
+                  <span
+                    class="
+                      icon--lg
+                      step__icon
+                      bg-color--white-opacity--05
+                      box-shadow--1
+                      rounded-circle
+                    "
+                  >
+                    <img src="images/icons/vesting.svg" alt="Vesting icon" />
+                  </span>
                 </div>
                 <!-- end of icon -->
                 <div class="position-relative">
                   <h3 class="h4-font font-w--600 mb-1">Vesting</h3>
-                  <p class="opacity--80">5% of Dev wallet, vested for 6 months,
-                    will be used for marketing.</p>
+                  <p class="opacity--80">
+                    5% of Dev wallet, vested for 6 months, will be used for
+                    marketing.
+                  </p>
                 </div>
-                <!-- end of content --> </div>
-              <!-- end of single step --> </div>
+                <!-- end of content -->
+              </div>
+              <!-- end of single step -->
+            </div>
             <div class="col-12 col-lg-6 mt-lg-0 mt-md-4 reveal">
               <div class="card bg-color--dark--0 p-3 rounded--10" id="whysf">
                 <h4 class="mb-3 font-w--600">Why choose Smart Finance?</h4>
-                <p role="alert"> Smart Finance is a marketplace divided into
-                  multiple part, where buyers and sellers meet to carry out
-                  operations involving digital goods and assets in a secure way,
-                  involving AI for searching, matching and advising. One of the
-                  multiple advantage here is the automatic matching of users,
-                  basing on straight AI approach. </p>
-                <br>
-                <p class="mt-2"> It is the first ever Artificial Intelligence
-                  marketplace in the world, combining P2P assets trading, Defi
-                  operations, Investment security AI insight, whales wallet
-                  scoring/copying and tracking IA power will let people
-                  connection for performing profitable operations by analyzing
-                  preferences. </p>
+                <p role="alert">
+                  Smart Finance is a marketplace divided into multiple part,
+                  where buyers and sellers meet to carry out operations
+                  involving digital goods and assets in a secure way, involving
+                  AI for searching, matching and advising. One of the multiple
+                  advantage here is the automatic matching of users, basing on
+                  straight AI approach.
+                </p>
+                <br />
+                <p class="mt-2">
+                  It is the first ever Artificial Intelligence marketplace in
+                  the world, combining P2P assets trading, Defi operations,
+                  Investment security AI insight, whales wallet scoring/copying
+                  and tracking IA power will let people connection for
+                  performing profitable operations by analyzing preferences.
+                </p>
               </div>
             </div>
-            <!-- end of solutions --> </div>
-          <!-- end of row --> </div>
+            <!-- end of solutions -->
+          </div>
+          <!-- end of row -->
+        </div>
       </section>
       <!-- =========== End of Problem/ Solition ============ -->
       <!-- =========== Start of Benefits and CTA ============ -->
       <section class="space section--dark bg-color--dark--2" id="features">
-        <div class="background-holder background--cover opacity-5 background--move z-index0">
-          <img src="images/layout/shape-a.png" alt="background image" class="background-image-holder">
+        <div
+          class="
+            background-holder background--cover
+            opacity-5
+            background--move
+            z-index0
+          "
+        >
+          <img
+            src="images/layout/shape-a.png"
+            alt="background image"
+            class="background-image-holder"
+          />
         </div>
         <div class="container">
           <div class="row">
             <div class="col-12 mx-auto">
               <div class="mb-5 mb-lg-7 text-center reveal">
-                <h2 class="text-uppercase mb-2"> <span class="color--brand-blue">Features</span>
+                <h2 class="text-uppercase mb-2">
+                  <span class="color--brand-blue">Features</span>
                 </h2>
-                <p class="h6-font"> SMF is a token based on the Binance Smart
-                  Chain technology. It is the core asset of the new Smart
-                  Finance Marketplace. Users possessing SMF can get access for
-                  buying digital goods, staking, farming, trading using the
-                  power of AI insights and management. </p>
-                <br>
+                <p class="h6-font">
+                  SMF is a token based on the Binance Smart Chain technology. It
+                  is the core asset of the new Smart Finance Marketplace. Users
+                  possessing SMF can get access for buying digital goods,
+                  staking, farming, trading using the power of AI insights and
+                  management.
+                </p>
+                <br />
                 <h2 class="h3-font mt-3 mb-4">Main Features</h2>
               </div>
             </div>
           </div>
           <!-- end of section title row -->
           <div class="position-relative remove-space--bottom">
-            <div class="vertical-border d-flex pos-abs-center h-100 w-100"> </div>
-            <div class="row horizontal-border justify-content-between mb-lg-5 pb-lg-5 reveal">
+            <div
+              class="vertical-border d-flex pos-abs-center h-100 w-100"
+            ></div>
+            <div
+              class="
+                row
+                horizontal-border
+                justify-content-between
+                mb-lg-5
+                pb-lg-5
+                reveal
+              "
+            >
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/networking.svg"
-                      alt="Networking icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img
+                      src="images/icons/networking.svg"
+                      alt="Networking icon"
+                    />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Dual
-                      Reward</h3>
-                    <p>Even under staking you can get the tax reward to your
-                      wallet.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Dual Reward
+                    </h3>
+                    <p>
+                      Even under staking you can get the tax reward to your
+                      wallet.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/reward.svg"
-                      alt="Reward icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/reward.svg" alt="Reward icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Peer
-                      to peer fees</h3>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Peer to peer fees
+                    </h3>
                     <p>No P2P transaction fees. Sellers enjoy 100% earnings</p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/insurance.svg"
-                      alt="Insurance icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img
+                      src="images/icons/insurance.svg"
+                      alt="Insurance icon"
+                    />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Smart
-                      AI Search</h3>
-                    <p>To find sellers and make transactions at best conditions.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Smart AI Search
+                    </h3>
+                    <p>
+                      To find sellers and make transactions at best conditions.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/global.svg"
-                      alt="Global icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/global.svg" alt="Global icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Decentralized</h3>
-                    <p>All data stored on user devices due to end-to-end
-                      algorithm.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Decentralized
+                    </h3>
+                    <p>
+                      All data stored on user devices due to end-to-end
+                      algorithm.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/reward.svg"
-                      alt="Reward icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/reward.svg" alt="Reward icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Anti-Scam
-                      Scanner</h3>
-                    <p>AI anti-Scam real-time Scoring system (ASRS), to provide
-                      investment security level.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Anti-Scam Scanner
+                    </h3>
+                    <p>
+                      AI anti-Scam real-time Scoring system (ASRS), to provide
+                      investment security level.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/database.svg"
-                      alt="Database icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/database.svg" alt="Database icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Whales
-                      Tracker</h3>
-                    <p>Search, track, copy trade of whales at right proportion
-                      leveraging AI mechanism.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Whales Tracker
+                    </h3>
+                    <p>
+                      Search, track, copy trade of whales at right proportion
+                      leveraging AI mechanism.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/insurance.svg"
-                      alt="Insurance icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img
+                      src="images/icons/insurance.svg"
+                      alt="Insurance icon"
+                    />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Trading
-                      Insurance</h3>
-                    <p>Enable auto trading with loss insurance covering up to
-                      95% of the initial investment.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Trading Insurance
+                    </h3>
+                    <p>
+                      Enable auto trading with loss insurance covering up to 95%
+                      of the initial investment.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/transfer.svg"
-                      alt="Loyalty icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/transfer.svg" alt="Loyalty icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Loyalty
-                      Program</h3>
-                    <p>Unlock higher rewards, rates, insurance levels by just
-                      using the platform.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Loyalty Program
+                    </h3>
+                    <p>
+                      Unlock higher rewards, rates, insurance levels by just
+                      using the platform.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/global.svg"
-                      alt="Global icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/global.svg" alt="Global icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Online
-                      Dashboard</h3>
-                    <p>Detailed information is always available right at your
-                      hand.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Online Dashboard
+                    </h3>
+                    <p>
+                      Detailed information is always available right at your
+                      hand.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/wallet.svg"
-                      alt="Wallet icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/wallet.svg" alt="Wallet icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Personal
-                      Wallet</h3>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Personal Wallet
+                    </h3>
                     <p>Sign in with fingerprint or Face ID to access wallet.</p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/insurance.svg"
-                      alt="Insurance icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img
+                      src="images/icons/insurance.svg"
+                      alt="Insurance icon"
+                    />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Any
-                      Platform</h3>
-                    <p>Works on desktop, mobile &amp; tablet or as via your
-                      browser.</p>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Any Platform
+                    </h3>
+                    <p>
+                      Works on desktop, mobile &amp; tablet or as via your
+                      browser.
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- end of single item col -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 feature-item">
-                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left"> <span
-                    class="mb-3 mb-lg-0 mr-md-3 f-icon"> <img src="images/icons/reward.svg"
-                      alt="Reward icon"> </span>
+                <div class="d-lg-flex mb-4 mb-lg-0 text-center text-md-left">
+                  <span class="mb-3 mb-lg-0 mr-md-3 f-icon">
+                    <img src="images/icons/reward.svg" alt="Reward icon" />
+                  </span>
                   <div>
-                    <h3 class="h5-font font-w--600 color--brand-green-light mb-2">Push
-                      Alerts</h3>
+                    <h3
+                      class="h5-font font-w--600 color--brand-green-light mb-2"
+                    >
+                      Push Alerts
+                    </h3>
                     <p>To get notifications about transactions, prices etc.</p>
                   </div>
                 </div>
               </div>
-              <!-- end of single item col --> </div>
-            <!-- end of content row --> </div>
-          <!-- end of benefits row --> </div>
+              <!-- end of single item col -->
+            </div>
+            <!-- end of content row -->
+          </div>
+          <!-- end of benefits row -->
+        </div>
       </section>
       <!-- =========== End of Benefits and CTA ============ -->
       <!-- =========== Start of Token  Details ============ -->
-      <section class="space section--dark bg-color--dark--1 token-sale-details token-sale-details--v1"
-        id="presale">
-        <div class="background-holder background--cover opacity-75 background--move z-index0">
-          <img src="images/layout/shape-i.png" alt="background image" class="background-image-holder">
+      <section
+        class="
+          space
+          section--dark
+          bg-color--dark--1
+          token-sale-details token-sale-details--v1
+        "
+        id="presale"
+      >
+        <div
+          class="
+            background-holder background--cover
+            opacity-75
+            background--move
+            z-index0
+          "
+        >
+          <img
+            src="images/layout/shape-i.png"
+            alt="background image"
+            class="background-image-holder"
+          />
         </div>
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-10 col-md-8 mx-auto reveal">
               <div class="text-center mb-5 mb-lg-7 reveal">
-                <h2 class="text-uppercase mb-2 color--brand-green-light">Presale
-                  Details</h2>
-                <p class="h6-font">5% of the total supply will be airdropped to
-                  presale contributors. The only eligibility condition is to
-                  still hold at least 65% of the initial contribution.</p>
+                <h2 class="text-uppercase mb-2 color--brand-green-light">
+                  Presale Details
+                </h2>
+                <p class="h6-font">
+                  5% of the total supply will be airdropped to presale
+                  contributors. The only eligibility condition is to still hold
+                  at least 65% of the initial contribution.
+                </p>
               </div>
             </div>
           </div>
           <!-- end of section title row -->
           <div class="row">
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter card-hover--shadow-lighter p-2 p-md-4 w-100">
-                <span class="font-w--500 text-uppercase font-size--14">Start
-                  Date</span> <span class="color--brand-green-light h3-font font-w--700">TBD</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >Start Date</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >TBD</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100 h-100">
-                <span class="font-w--500 text-uppercase font-size--14">Total
-                  Tokens</span> <span class="color--brand-green-light h3-font font-w--700">24M</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                  h-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >Total Tokens</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >24M</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100 h-100">
-                <span class="font-w--500 text-uppercase font-size--14">Liquidity</span>
-                <span class="color--brand-green-light h3-font font-w--700">12.9M</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                  h-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >Liquidity</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >12.9M</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100 h-100">
-                <span class="font-w--500 text-uppercase font-size--14">Currency</span>
-                <span class="color--brand-green-light h3-font font-w--700">BNB</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                  h-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >Currency</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >BNB</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100">
-                <span class="font-w--500 text-uppercase font-size--14">End Date</span>
-                <span class="color--brand-green-light h3-font font-w--700">TBD</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >End Date</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >TBD</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100">
-                <span class="font-w--500 text-uppercase font-size--14">Presale
-                  Rate</span> <span class="color--brand-green-light h3-font font-w--700">24,000</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >Presale Rate</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >24,000</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100">
-                <span class="font-w--500 text-uppercase font-size--14">Listing
-                  Rate</span> <span class="color--brand-green-light h3-font font-w--700">17,143</span>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >Listing Rate</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >17,143</span
+                >
               </div>
             </div>
             <!-- end of single item col -->
             <div class="col-6 col-lg-3 mb-3 reveal">
-              <div class="card bg-gradient--darkblue--8 border--none card-hover--shadow-lighter p-2 p-md-4 w-100">
-                <span class="font-w--500 text-uppercase font-size--14">MIN/MAX
-                  Buy</span> <span class="color--brand-green-light h3-font font-w--700">0.1
-                  / 5</span> </div>
+              <div
+                class="
+                  card
+                  bg-gradient--darkblue--8
+                  border--none
+                  card-hover--shadow-lighter
+                  p-2 p-md-4
+                  w-100
+                "
+              >
+                <span class="font-w--500 text-uppercase font-size--14"
+                  >MIN/MAX Buy</span
+                >
+                <span class="color--brand-green-light h3-font font-w--700"
+                  >0.1 / 5</span
+                >
+              </div>
             </div>
             <!-- end of single item col -->
             <div class="col-12 reveal">
               <div class="card bg-gradient--darkblue--9 p-2 p-md-4 w-100">
                 <div class="row">
-                  <div class="col-3"> <span class="font-w--500 text-uppercase font-size--14">
-                      <button type="button" class="btn btn-warning btn-sm btn-block">Presale
-                        Starts:</button> </span> </div>
+                  <div class="col-3">
+                    <span class="font-w--500 text-uppercase font-size--14">
+                      <button
+                        type="button"
+                        class="btn btn-warning btn-sm btn-block"
+                      >
+                        Presale Starts:
+                      </button>
+                    </span>
+                  </div>
                   <div class="col-9">
                     <div class="countdown"></div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- end of single item col --> </div>
+            <!-- end of single item col -->
+          </div>
           <!-- end of row -->
           <!-- end token details row -->
-          <!-- end of public token sale area --> </div>
+          <!-- end of public token sale area -->
+        </div>
       </section>
       <!-- =========== End of Token  Details ============ -->
       <!-- =========== Start of Roadmap ============ -->
-      <section class="space hidden roadmap roadmap--v1 section--dark bg-color--dark--0"
-        id="roadmap">
-        <div class="background-holder background--center opacity-01 background--contain background--move">
-          <img src="images/layout/map-2.png" alt="image" class="background-image-holder">
+      <section
+        class="space hidden roadmap roadmap--v1 section--dark bg-color--dark--0"
+        id="roadmap"
+      >
+        <div
+          class="
+            background-holder background--center
+            opacity-01
+            background--contain background--move
+          "
+        >
+          <img
+            src="images/layout/map-2.png"
+            alt="image"
+            class="background-image-holder"
+          />
         </div>
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-10 col-md-8 mx-auto reveal">
               <div class="text-center mb-sm-5 mb-lg-7">
-                <h2 class="text-uppercase mb-2 color--brand-blue">Smart Finance
-                  Roadmap</h2>
-                <h4 class="text-center text-white">Our Strategy and Project Plan</h4>
-                <br>
+                <h2 class="text-uppercase mb-2 color--brand-blue">
+                  Smart Finance Roadmap
+                </h2>
+                <h4 class="text-center text-white">
+                  Our Strategy and Project Plan
+                </h4>
+                <br />
               </div>
             </div>
           </div>
           <!-- end of section title row -->
           <div class="row align-items-center pb-7 pb-md-0 reveal">
             <div class="col-12 col-xl-1 mx-auto mx-lg-0 text-center">
-              <ul class="roadmap__year list-unstyled d-xl-flex flex-xl-column">
-              </ul>
+              <ul
+                class="roadmap__year list-unstyled d-xl-flex flex-xl-column"
+              ></ul>
             </div>
             <div class="col-12 col-xl-9 ml-xl-auto">
               <div class="carosuel-slider--v6">
@@ -755,11 +1729,38 @@
                 <!-- end of single slide -->
                 <div class="slide mb-1" data-year="2021">
                   <div class="d-md-flex align-items-md-center">
-                    <div class="mr-5 pr-5 mr-xl-7 pr-xl-7 mb-3 mb-md-0 position-relative">
-                      <span class="text-color--800 font-w--600 mb-1 opacity--60">2021</span>
-                      <h3 class="bg-color--dark--2 p-1 rounded color--brand-blue font-size--22 slide__title font-w--600">Quarter
-                        - 4</h3>
-                      <span class="d-none d-md-inline-block decor decor--circle decor--dark"></span>
+                    <div
+                      class="
+                        mr-5
+                        pr-5
+                        mr-xl-7
+                        pr-xl-7
+                        mb-3 mb-md-0
+                        position-relative
+                      "
+                    >
+                      <span class="text-color--800 font-w--600 mb-1 opacity--60"
+                        >2021</span
+                      >
+                      <h3
+                        class="
+                          bg-color--dark--2
+                          p-1
+                          rounded
+                          color--brand-blue
+                          font-size--22
+                          slide__title
+                          font-w--600
+                        "
+                      >
+                        Quarter - 4
+                      </h3>
+                      <span
+                        class="
+                          d-none d-md-inline-block
+                          decor decor--circle decor--dark
+                        "
+                      ></span>
                     </div>
                     <ul class="pl-2 pl-md-0 roadmap">
                       <li class="text-color--400">
@@ -795,11 +1796,38 @@
                 <!-- end of single slide -->
                 <div class="slide mb-1" data-year="2022">
                   <div class="d-md-flex align-items-md-center">
-                    <div class="mr-5 pr-5 mr-xl-7 pr-xl-7 mb-3 mb-md-0 position-relative">
-                      <span class="text-color--800 font-w--600 mb-1 opacity--60">2022</span>
-                      <h3 class="bg-color--dark--2 p-1 rounded color--brand-blue font-size--22 slide__title font-w--600">Quarter
-                        - 1</h3>
-                      <span class="d-none d-md-inline-block decor decor--circle decor--dark"></span>
+                    <div
+                      class="
+                        mr-5
+                        pr-5
+                        mr-xl-7
+                        pr-xl-7
+                        mb-3 mb-md-0
+                        position-relative
+                      "
+                    >
+                      <span class="text-color--800 font-w--600 mb-1 opacity--60"
+                        >2022</span
+                      >
+                      <h3
+                        class="
+                          bg-color--dark--2
+                          p-1
+                          rounded
+                          color--brand-blue
+                          font-size--22
+                          slide__title
+                          font-w--600
+                        "
+                      >
+                        Quarter - 1
+                      </h3>
+                      <span
+                        class="
+                          d-none d-md-inline-block
+                          decor decor--circle decor--dark
+                        "
+                      ></span>
                     </div>
                     <ul class="pl-2 pl-md-0 roadmap">
                       <li class="text-color--400">
@@ -815,7 +1843,9 @@
                         <p class="h6-font text-white">Coingecko Listing.</p>
                       </li>
                       <li class="text-color--400">
-                        <p class="h6-font text-white">Unveiling marketing plan.</p>
+                        <p class="h6-font text-white">
+                          Unveiling marketing plan.
+                        </p>
                       </li>
                       <li class="text-color--400">
                         <p class="h6-font text-white">Marketplace Beta test</p>
@@ -826,15 +1856,44 @@
                 <!-- end of single slide -->
                 <div class="slide mb-1" data-year="2022">
                   <div class="d-md-flex align-items-md-center">
-                    <div class="mr-5 pr-5 mr-xl-7 pr-xl-7 mb-3 mb-md-0 position-relative">
-                      <span class="text-color--800 font-w--600 mb-1 opacity--60">2022</span>
-                      <h3 class="bg-color--dark--2 p-1 rounded color--brand-blue font-size--22 slide__title font-w--600">Quarter
-                        - 2</h3>
-                      <span class="d-none d-md-inline-block decor decor--circle decor--dark"></span>
+                    <div
+                      class="
+                        mr-5
+                        pr-5
+                        mr-xl-7
+                        pr-xl-7
+                        mb-3 mb-md-0
+                        position-relative
+                      "
+                    >
+                      <span class="text-color--800 font-w--600 mb-1 opacity--60"
+                        >2022</span
+                      >
+                      <h3
+                        class="
+                          bg-color--dark--2
+                          p-1
+                          rounded
+                          color--brand-blue
+                          font-size--22
+                          slide__title
+                          font-w--600
+                        "
+                      >
+                        Quarter - 2
+                      </h3>
+                      <span
+                        class="
+                          d-none d-md-inline-block
+                          decor decor--circle decor--dark
+                        "
+                      ></span>
                     </div>
                     <ul class="pl-2 pl-md-0">
                       <li class="text-color--400">
-                        <p class="h6-font text-white">Rubik's Cube Tournament</p>
+                        <p class="h6-font text-white">
+                          Rubik's Cube Tournament
+                        </p>
                       </li>
                       <li class="text-color--400">
                         <p class="h6-font text-white">Loyalty Program</p>
@@ -846,7 +1905,9 @@
                         <p class="h6-font text-white">Mobile Wallet Audit</p>
                       </li>
                       <li class="text-color--400">
-                        <p class="h6-font text-white">Marketplace DeFi Unlock</p>
+                        <p class="h6-font text-white">
+                          Marketplace DeFi Unlock
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -854,11 +1915,38 @@
                 <!-- end of single slide -->
                 <div class="slide mb-1" data-year="2022">
                   <div class="d-md-flex align-items-md-center">
-                    <div class="mr-5 pr-5 mr-xl-7 pr-xl-7 mb-3 mb-md-0 position-relative">
-                      <span class="text-color--800 font-w--600 mb-1 opacity--60">2022</span>
-                      <h3 class="bg-color--dark--2 p-1 rounded color--brand-blue font-size--22 slide__title font-w--600">Quarter
-                        - 3</h3>
-                      <span class="d-none d-md-inline-block decor decor--circle decor--dark"></span>
+                    <div
+                      class="
+                        mr-5
+                        pr-5
+                        mr-xl-7
+                        pr-xl-7
+                        mb-3 mb-md-0
+                        position-relative
+                      "
+                    >
+                      <span class="text-color--800 font-w--600 mb-1 opacity--60"
+                        >2022</span
+                      >
+                      <h3
+                        class="
+                          bg-color--dark--2
+                          p-1
+                          rounded
+                          color--brand-blue
+                          font-size--22
+                          slide__title
+                          font-w--600
+                        "
+                      >
+                        Quarter - 3
+                      </h3>
+                      <span
+                        class="
+                          d-none d-md-inline-block
+                          decor decor--circle decor--dark
+                        "
+                      ></span>
                     </div>
                     <ul class="pl-2 pl-md-0">
                       <li class="text-color--400">
@@ -874,21 +1962,39 @@
                         <p class="h6-font text-white">Tokenomics Stage 2</p>
                       </li>
                       <li class="text-color--400">
-                        <p class="h6-font text-white">Gaming Platform Whitepaper</p>
+                        <p class="h6-font text-white">
+                          Gaming Platform Whitepaper
+                        </p>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <!-- end of single slide --> </div>
-              <!-- end of single year slide group --> </div>
+                <!-- end of single slide -->
+              </div>
+              <!-- end of single year slide group -->
+            </div>
           </div>
         </div>
       </section>
       <!-- =========== End of Roadmap ============ -->
       <!-- =========== Start of team ============ -->
-      <section class="space section--dark bg-color--dark--2 team team--v1" id="team">
-        <div class="background-holder background--contain opacity-25 background--center z-index0">
-          <img src="images/layout/dot-a.png" alt="background image" class="background-image-holder">
+      <section
+        class="space section--dark bg-color--dark--2 team team--v1"
+        id="team"
+      >
+        <div
+          class="
+            background-holder background--contain
+            opacity-25
+            background--center
+            z-index0
+          "
+        >
+          <img
+            src="images/layout/dot-a.png"
+            alt="background image"
+            class="background-image-holder"
+          />
         </div>
         <div class="pb-6 pb-lg-10">
           <div class="container">
@@ -902,85 +2008,230 @@
             <!-- end of section title row -->
             <div class="row reveal">
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-2.png" alt="mamber" class="img-fluid">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-2.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
                   <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Orange</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Chief
-                      Architect</span> </div>
-                </div>
-              </div>
-              <!-- end of col -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-3.png" alt="mamber" class="img-fluid">
-                  <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Brown</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Co-Founder,
-                      CTO</span> </div>
-                </div>
-              </div>
-              <!-- end of col -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-1.png" alt="mamber" class="img-fluid">
-                  <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Blue</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Blockchain
-                      Developer</span> </div>
-                </div>
-              </div>
-              <!-- end of col -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-4.png" alt="mamber" class="img-fluid">
-                  <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Pink</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Cheif
-                      Financial Officer</span> </div>
-                </div>
-              </div>
-              <!-- end of col -->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-3.png" alt="mamber" class="img-fluid">
-                  <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. White</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Co-founder</span>
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Orange
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Chief Architect</span
+                    >
                   </div>
                 </div>
               </div>
               <!-- end of col -->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-1.png" alt="mamber" class="img-fluid">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-3.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
                   <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Brown</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Co-founder</span>
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Brown
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Co-Founder, CTO</span
+                    >
                   </div>
                 </div>
               </div>
               <!-- end of col -->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-4.png" alt="mamber" class="img-fluid">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-1.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
                   <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Pink</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Risk
-                      management</span> </div>
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Blue
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Blockchain Developer</span
+                    >
+                  </div>
                 </div>
               </div>
               <!-- end of col -->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card card-hover--shadow-light align-items-center border--none text-center pt-5 pb-2">
-                  <img src="images/avatar-m-2.png" alt="mamber" class="img-fluid">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-4.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
                   <div class="card-body align-items-center">
-                    <h3 class="h6-font font-w--600 color--brand-blue">Mr. Blue</h3>
-                    <span class="font-size--14 opacity--80 font-w--300">Blockchain
-                      analyst</span> </div>
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Pink
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Cheif Financial Officer</span
+                    >
+                  </div>
                 </div>
               </div>
-              <!-- end of col --> </div>
+              <!-- end of col -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-3.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
+                  <div class="card-body align-items-center">
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. White
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Co-founder</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- end of col -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-1.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
+                  <div class="card-body align-items-center">
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Brown
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Co-founder</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- end of col -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-4.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
+                  <div class="card-body align-items-center">
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Pink
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Risk management</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- end of col -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div
+                  class="
+                    card
+                    card-hover--shadow-light
+                    align-items-center
+                    border--none
+                    text-center
+                    pt-5
+                    pb-2
+                  "
+                >
+                  <img
+                    src="images/avatar-m-2.png"
+                    alt="mamber"
+                    class="img-fluid"
+                  />
+                  <div class="card-body align-items-center">
+                    <h3 class="h6-font font-w--600 color--brand-blue">
+                      Mr. Blue
+                    </h3>
+                    <span class="font-size--14 opacity--80 font-w--300"
+                      >Blockchain analyst</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- end of col -->
+            </div>
           </div>
         </div>
         <!-- end of advisory container -->
@@ -993,42 +2244,57 @@
         <div class="py-3 py-lg-4">
           <div class="container">
             <div class="row">
-              <div class="col-12 col-md-10 col-lg-6 col-xl-5 mb-4 mb-lg-0 text-center text-lg-left">
+              <div
+                class="
+                  col-12 col-md-10 col-lg-6 col-xl-5
+                  mb-4 mb-lg-0
+                  text-center text-lg-left
+                "
+              >
                 <span class="mt-1 mb-2">
-                  <div class="footer-logo opacity--50"> <img src="images/brand-logo-white.png"
-                      alt="brand-logo"> </div>
-                </span> </div>
+                  <div class="footer-logo opacity--50">
+                    <img src="images/brand-logo-white.png" alt="brand-logo" />
+                  </div>
+                </span>
+              </div>
               <!-- end of widget col -->
               <div class="col-12 col-lg-6 ml-lg-auto text-center text-lg-right">
-                <ul class="icon-group footer-icons icon-rounded icon-rounded-color--gray justify-content-center justify-content-lg-end mb-2 mb-lg-2">
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
-                  <li> <a href="javascript:void(0)"> </a> <br>
-                  </li>
+                <ul
+                  class="
+                    icon-group
+                    footer-icons
+                    icon-rounded
+                    icon-rounded-color--gray
+                    justify-content-center justify-content-lg-end
+                    mb-2 mb-lg-2
+                  "
+                >
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
+                  <li><a href="javascript:void(0)"> </a> <br /></li>
                 </ul>
                 <!-- end of social icon -->
                 <!-- end of nav item -->
-                <p class="text-color--400 font-size--14"> © 2022 <a href="#" class="text-color--400">Smart
-                    Finance</a>. All Rights Reserved.</p>
+                <p class="text-color--400 font-size--14">
+                  © 2022 <a href="#" class="text-color--400">Smart Finance</a>.
+                  All Rights Reserved.
+                </p>
               </div>
-              <!-- end of col --> </div>
-            <!-- end of row --> </div>
-          <!-- end of main footer container --> </div>
+              <!-- end of col -->
+            </div>
+            <!-- end of row -->
+          </div>
+          <!-- end of main footer container -->
+        </div>
         <!-- end of main footer area -->
       </footer>
       <script src="js/vendor.min.js"></script>
-      <script src="js/app.js"></script> </main>
+      <script src="js/app.js"></script>
+    </main>
   </body>
 </html>
